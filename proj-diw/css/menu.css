@@ -1,0 +1,31 @@
+/*Seleciona o elemento com o id="menu"*/
+#menu{
+	/*define uma cor de fundo para a ul*/
+	background-color: #C1A0B9;
+	/*Define o estilodo marcador
+	removemos os marcadores*/
+	list-style-type: none;
+	/*Define a largura da lista */
+	width: 50%;
+	/*Define o preenchimento à esquerda*/
+	padding-left: 0;
+}
+
+/*Seleciona o elemento A que esta dentro de 
+um elemento Li que esta dentro de um
+elemento com ID="menu"*/
+#menu li a:link,
+#menu li a:visited{
+	/*Remove o underline*/
+	text-decoration: none;
+	/*Define um cor de fonte de texto */
+	color: #000;
+/*	Alterando o display inline para 
+	inline-block, o qual permite o uso de 
+	altura e largura e também alinhamento*/
+	display: inline-block;
+	/*Define a largura do elemento*/
+/*	width: 120px;*/
+background-color: lightgray;
+}
+

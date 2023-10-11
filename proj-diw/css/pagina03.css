@@ -1,0 +1,30 @@
+/*Seleciona todos os elementos H1*/
+h1{
+	/*Define a borda do elemento*/
+	border: 2px solid purple;
+/*	Definir o preenchimento entre o conteúdo 
+	do elemento e sua borda (esquerda)*/
+	padding-left: 50px;
+	/*	Definir o preenchimento entre o conteúdo 
+	do elemento e sua borda (topo)*/
+	padding-top: 20px;
+	/*	Definir o preenchimento entre o conteúdo 
+	do elemento e sua borda (inferior)*/
+	padding-bottom: 5px;
+	/*	Definir o preenchimento entre o conteúdo 
+	do elemento e sua borda (direita)*/
+	padding-right: 100px;
+	background-color: cornflowerblue;
+	/*Define a largura do elemento*/
+	width: 500px;
+/*	Define o espaçamento fora da borda do 
+	elemento (esquerda)*/
+	margin-left: 150px;
+	/*	Define o espaçamento fora da borda do 
+	elemento (topo)*/
+	margin-top: 50px;
+	/*	Define o espaçamento fora da borda do 
+	elemento (inferior)*/
+	margin-bottom: 25px;
+}
+
