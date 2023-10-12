@@ -1,0 +1,85 @@
+/*Seleciona todos os elementos H1 do html
+ e aplica as propriedades definidas
+ dentro das chaves */
+ h1{ 
+ 	/*Define o tamanho da fonte de texto*/
+ 	font-size: 26px;
+ 	/*Define a família da fonte*/
+ 	font-family: Verdana, Calibri, Comic Sans MS, Sans-serif;
+	/*Define a borda do topo do elemento*/
+	/*none, dotted, dshed, solid, double, 
+	groove, inset*/
+	border-top: 3px dashed #CCC; 	
+	/*Define a borda da esquerda do elemento*/
+	border-left: 2px dotted darkblue;
+	/*Define a borda da direita do elemento*/
+	border-right: 8px solid darkorange;
+	/*Define a borda inferior do elemento*/
+	border-bottom: 5px dotted darkred;
+	/*Define a largura do elemento*/
+	width: 30%;
+ }
+/*Seleciona todos os elementos P*/
+ p{
+	/*Define a família da fonte*/
+	font-family: Comic Sans MS, serif;
+	/*Define o tamanho da fonte */
+	font-size: 14px;
+	/*Define o estilo da fonte:
+	oblique, normal, italic*/
+	font-style: normal;
+	/*Define a espessura da fonte:
+	lighter, bold, bolder*/	
+	font-weight: lighter;
+ }
+
+/*Seleciona todos os elementos H2*/
+ h2{
+ 	/*Define o estilo da fonte*/
+ 	font-style: italic;
+ 	/*Define o tamanho da fonte*/
+ 	font-size: 32px;
+ 	/*Define a cor d\ fonte*/
+ 	color: darkblue;
+ 	/*Define a variação da fonte*/
+ 	font-variant: small-caps;
+ 	/*Define uma decoração para o texto:
+ 	none, underline, overline, line-*/
+ 	text-decoration: underline dotted red;
+ }
+/*Seleciona o elemento com o id "terceiro"*/
+#terceiro{
+	/*Define a família da fonte*/
+	font-family: Verdana;
+	/*Define a identação na primeira linha do texto*/
+	text-indent: 30px;
+	/*Define o alinhamento do texto:
+	right/direita - left/esquerda - 
+	justify/justificado - center/centro*/
+	text-align: justify;
+ }
+
+/*Seleciona o elementyo com o id "dourado"*/
+#dourado{
+ 	/*Define a cor do texto*/
+ 	color: gold;
+ }
+
+/*Seleciona os elementos com a class "cor-fundo"*/
+.cor-fundo{
+	/*Define uma cor de fundo*/
+	background-color: lightsalmon;
+}
+
+/*Seleciona todos os elementos IMG*/
+img{
+	/*none, dotted, dshed, solid, double, 
+	groove, inset*/
+	border: 8px groove darkgreen;
+	width: 350px;
+}
+
+#festa{
+	height: 232px;
+	width: auto;
+}
